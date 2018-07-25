@@ -8,17 +8,36 @@
         <link rel="stylesheet" href="index.css">
         <script src="jquery-3.2.1.js"></script>
         <script src="index.js"></script>
-    </head>
+        <script src="menu.js"></script>
+    </head> 
     <body>
         <header>
-           <div class="container">
-               <div class="bar"></div>
-               <div class="bar"></div>
-               <div class="bar"></div>
-           </div>
+           <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
            <h3>mater</h3>
         </header>
         <br>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="dropdown">
+          <a  class="dropbtn" onclick="myFunction()" href="#">Collection <i class="fa fa-caret-down"></i>
+          </a>
+          <div id="myDropdown" class="dropdown-content" >
+                    <div id="item3">
+                        <img href src="images/Sofá blanco.png" width="350" height="350" class="oculta" onmouseover = "show()"/>
+                    </div>
+                <a href="#" id="link1">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          <a href="#">Design</a>
+          <a href="#">Craftmanship</a>
+          <a href="#">Ethics</a>
+        </div>
+        <div id="main">
+        </div>
+       
+        
             <section id="body">
                 <section id="scrolldown">
             <div id="main">

@@ -117,6 +117,9 @@ body{
      float:right;
      margin-right:500px;
  }
+ .oculta{
+    visibility:hidden;
+ }
  footer{
     float:left;
     display: inline-block;

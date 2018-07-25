@@ -18,6 +18,6 @@ window.onclick = function(e) {
         }
     }
 }
-
-
-
+function init(){
+    document.addEventListener("DOMContentLoaded",init);
+}
