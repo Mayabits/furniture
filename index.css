@@ -52,18 +52,6 @@ image{
     line-height: 0.5em;
 }
 
-#item1{
-    float:left;
-    display: inline-block;
-    padding: 2px 2px;
-    margin-right: 50px;
-}
-
-#item2{
-    float:left;
-    display: inline-block;
-}
-
 .sidenav {
     height: 100%;
     width: 0; /* 0 width - change this with JavaScript */
@@ -183,14 +171,51 @@ image{
  .oculta{
     visibility:hidden;
  }
- footer{
+
+ #item1{
     float:left;
     display: inline-block;
     padding: 2px 2px;
     margin-right: 50px;
-    color:white;
- }
+}
+
+#item2{
+    float:left;
+    display: inline-block;
+}
 
  span{
      float: right;
  }
+ .menufooter{
+    float:left;
+    display: inline;
+   
+ }
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+ }
+ li {
+    float: left;
+    padding: 14px 16px;
+    font-size: 12px;
+    color: ##F5F4F6;
+    
+    
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menufooter{
+    margin-left:150px;
+    margin-top:300px;
+}
