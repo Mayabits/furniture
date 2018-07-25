@@ -1,8 +1,7 @@
-
-
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
 }
+
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
@@ -10,6 +9,7 @@ function closeNav() {
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
+
 window.onclick = function(e) {
     if (!e.target.matches('.dropbtn')) {
       var myDropdown = document.getElementById("myDropdown");
@@ -18,6 +18,7 @@ window.onclick = function(e) {
         }
     }
 }
-function init(){
+
+function init() {
     document.addEventListener("DOMContentLoaded",init);
 }
