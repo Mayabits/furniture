@@ -17,4 +17,7 @@ window.onclick = function(e) {
           myDropdown.classList.remove('show');
         }
     }
-  }
+}
+
+
+

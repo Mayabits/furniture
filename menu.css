@@ -117,3 +117,10 @@ body{
      float:right;
      margin-right:500px;
  }
+ footer{
+    float:left;
+    display: inline-block;
+    padding: 2px 2px;
+    margin-right: 50px;
+    color:white;
+ }
