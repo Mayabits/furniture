@@ -23,4 +23,92 @@ body{
     transition: 0.3s;
  }
  
+ .sidenav a:hover {
+    color: gray;
+ }
+ #mySidenav{
+    margin-left: 200px;
+    padding-top: 200px;
+    position: fixed;
+    display: block;
+ }
+ .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    overflow: hidden;
+    background-color:0px 8px 16px 0px;
+    color:lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #main {
+    transition: margin-left .5s;
+    padding: 20px;
+ }
+ @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+ }
+
+ .dropdown-content{
+    overflow: hidden;
+ }
+ .sidenav a {
+    font-size: 20px;
+    color:#F5F4F6;
+    margin-left:150px;
+    padding: 14px 16px;
+    text-decoration: none;
+ } 
+  
+ .dropdown {
+    overflow: hidden;
+    font-size: 20px;
+    color:#F5F4F6;
+    margin-left:150px;
+ }
+
+ .dropdown .dropbtn {
+    font-size: 20px;   
+    border: none;
+    outline: none;
+    color: #F5F4F6;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+ }
+
+ .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:0px 8px 16px 0px;
+    overflow: hidden;
+ }
  
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: 0px 8px 16px 0px ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ }
+
+ .dropdown-content a {
+    float: none;
+    color: #F5F4F6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+ 
+ .dropdown-content a:hover {
+    background-color: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+ 
+ .dropdown:hover .dropdown-content {
+    display: block;
+ }
+   
