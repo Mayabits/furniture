@@ -188,6 +188,10 @@ image {
     display: inline-block;
 }
 
+#item3 img {
+    opacity: 0.6;
+}
+
  span {
      float: right;
  }
