@@ -43,17 +43,33 @@ image{
     margin-top: 150px;
 }
 
-#item1{
-    text-align: left;
-    display: inline-block;
-    padding: 12px 20px;
-    margin-top: 400px;
-}
-#item2{
-    display: inline-block;
-    margin-top: 400px;
+
+
+.topnav{
+    margin-top:400px;
+    overflow: hidden;
+    text align: left;
+    line-height: 0.5em;
 }
 
-.cont{
-    overflow: hidden;
+}
+#item1{
+    float:left;
+    display: inline-block;
+    padding: 2px 2px;
+    margin-right: 50px;
+}
+
+#item2{
+    float:left;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
 }
