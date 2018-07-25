@@ -89,11 +89,11 @@ body{
  
  .dropdown-content {
     display: none;
-    position: absolute;
+    position: left;
+    border: none;
     background-color: 0px 8px 16px 0px ;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
  }
 
  .dropdown-content a {
@@ -112,3 +112,8 @@ body{
     display: block;
  }
    
+ #item3{
+     overflow: hidden;
+     float:right;
+     margin-right:400px;
+ }
