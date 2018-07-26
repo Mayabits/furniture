@@ -8,11 +8,14 @@ $(document).ready(function () {
         
         if( parseInt(num) === num) {        
             $('#img1').attr("src","images/Mesa negra"+".png");
+            $("#img1").fadeOut();
         }
         else{}
         
         if (num<1) {
             $('#img1').attr("src","images/Silla negra.png");
+            $("#img1").fadeIn();
+           
         }
         
         if (num>30) {
