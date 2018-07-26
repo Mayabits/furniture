@@ -19,6 +19,18 @@ window.onclick = function(e) {
     }
 }
 
+function show() {
+    document.getElementById('item3').style.visibility = 'visible';
+}
+window.onclick = function(e) {
+    if (!e.target.matches("#link1")) {
+      var myImage = document.getElementById("item3");
+        if (myImage.classList.contains('show')) {
+          myImage.classList.remove('show');
+        }
+    }
+
 function init() {
     document.addEventListener("DOMContentLoaded",init);
+    }
 }
