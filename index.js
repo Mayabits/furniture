@@ -26,8 +26,10 @@ $(document).ready(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) { 
                 $("h4").html("Jesper K Thomas");
+                $("h4").fadeOut();
             } else {
                 $("h4").html("Mike Wazowski");
+                $("h4").fadeIn();
             }
         });        
     });

@@ -188,6 +188,11 @@ image {
     display: inline-block;
 }
 
+.topnav {
+    background-color:lightgray;
+    color:black;
+    }
+
 #item3 img {
     opacity: 0.7;
 }
